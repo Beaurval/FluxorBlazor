@@ -7,8 +7,22 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4"/>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\Products\Actions\" />
+      <Folder Include="Features\Products\Components\" />
+      <Folder Include="Features\Products\Effects\" />
+      <Folder Include="Features\Products\Reducers\" />
+      <Folder Include="Features\Products\Store\" />
+      <Folder Include="Features\Users\Actions\" />
+      <Folder Include="Features\Users\Components\" />
+      <Folder Include="Features\Users\Effects\" />
+      <Folder Include="Features\Users\Reducers\" />
+      <Folder Include="Features\Users\Store\" />
+      <Folder Include="Shared\Components\" />
     </ItemGroup>
 
 </Project>
